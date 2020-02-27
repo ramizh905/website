@@ -1,6 +1,25 @@
-<h1>Ramiz is a 2k god</h1>
-<img 
-    src="gcheck.svg" 
-    alt="gcheck images"
-    height="87"
-    width="100" />>
+<html>
+    <head>
+        <title>Ramiz Website</title>
+    </head>
+    
+    <body>
+        <h1>Ramiz is a 2k god</h1>
+        <img 
+            src="gcheck.svg" 
+            alt="gcheck images"
+            height="87"
+            width="100" />
+
+        <script type="text/javascript">
+            var clicks = 0;
+            <button type="button" onClick="onClick()">Click me</button>
+
+            function onClick() {
+                clicks = clicks + 1;
+                document.getElementById("clicks").innerHTML = clicks;
+            };
+            </script>
+            <p>Clicks: <a id="clicks">0</a></p>
+        
+    </body></html>
